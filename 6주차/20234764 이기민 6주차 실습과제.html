@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head><title>전산기초실습 6주차 실습과제</title>
+</head>
+<body>
+<h1>전산기초실습 6주차 실습과제</h1><hr>
+<h2>20234764 이기민 샌드위치 인제점입니다!</h2><br>
+<form>
+<fieldset>
+    <legend>&#91; 샌드위치 종류를 선택하세요 &#93;</legend><p>
+    <select name=food size=6 multiple>
+		<option value=red>터키베이컨</option>
+		<option value=yellow>로스트치킨</option>
+		<option value=blue selected>에그마요</option>
+		<option value=green>미트볼</option>
+		<option value=orange>스테이크</option>
+</select>
+</fieldset>
+</form>
+<p>
+<form>
+<fieldset>
+    <legend>&#91; 빵을 선택하세요 &#93;</legend><p>
+	<input type=radio name=food value=white checked>화이트
+    <input type=radio name=food value=jajangmyeon>파마산 오레가노
+    <input type=radio name=food value=pizza>허니오트
+	<input type=radio name=food value=pizza>플랫브래드
+	<input type=radio name=food value=pizza>휘트
+</fieldset>
+</form>
+<p>
+<form>
+<fieldset>
+    <legend>&#91; 치즈를 선택하세요 &#93;</legend><p>
+	<input type=radio name=food value=white checked>아메리칸
+    <input type=radio name=food value=jajangmyeon>슈레드
+    <input type=radio name=food value=pizza>모짜렐라
+	<input type=radio name=food value=pizza>치즈 제외
+</fieldset>
+</form>
+<form>
+<fieldset>
+    <legend>&#91; 야채를 선택하세요 &#93;</legend><p>
+	<input type=checkbox name=food value=ramen checked>양상추
+	<input type=checkbox name=food value=jajangmyeon>토마토
+	<input type=checkbox name=food value=jajangmyeon checked>양파
+	<input type=checkbox name=food value=jajangmyeon>피클
+	<input type=checkbox name=food value=jajangmyeon>올리브
+	<input type=checkbox name=food value=jajangmyeon>할라피뇨
+</fieldset>
+</form>
+<form>
+<fieldset>
+    <legend>&#91; 배달 정보를 입력하세요 &#93;</legend><p>
+	연락처 :
+		<input type=email>
+	주소 :
+	    <input type=email><p>
+	배달시간 :
+	    <input type=date name=date value="2023-04-06">
+	    <input type=time name=time value="11:30">
+	배달 요청 : 
+	    <select name=department>
+			<option value=musical>문 앞에 두고 문자
+			</select>
+			<p>
+	요청사항 : <textarea name=myarea rows=5 cols=40> 리뷰이벤트 참여
+	</textarea>
+	</fieldset>
+	<p>
+	<button type=button>주문하기</button>
+	<button type=button>취소하기</button>
