@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+<title>video</title>
+</head>
+<body>
+<h1>비디오 삽입하기 - video 태그</h1>
+<hr>
+<video src="Sample.mp4"
+		width=500 height=300
+		controls autoplay
+		muted loop>
+		브라우저가 vidoe 태그를 지원하지 않습니다.
+	<!-- <video> 태그 지원화지 않을 때 출력할 친절한 텍스트 -->
+</video><hr>
+<video width=500 height=300 controls autoplay>
+	<source src="Sleep Away.ogg" type="audio/ogg">
+	<source src="Sleep Away.webm" type="audio/webm">
+	<source src="Sleep Away.mp4" type="audio/mp4">
+</video>
+	<!-- <source> 태그 사용 시 브라우저가 재생 가능한 타입 선택 -->
+</body>
+</html>
