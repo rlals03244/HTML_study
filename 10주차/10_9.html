@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=urf-8>
+	<title>위치 속성</title>
+<style>
+	body { margin: 0;  font-size: 20px;}
+	#layer1 { */ absolute는 절대위치 */
+		position: absolute;
+		top: 100px; left: 100px;
+		width: 300px;  height: 200px;
+		background: green;
+		z-index: 1;
+}
+	
+	}
+	#layer2 { /* relative는 상대위치 */
+		position: relative;
+		top: 150px; left: 150px;
+		width: 300px; height: 200px;
+		background: yellow;
+		z-index: 2;
+	}
+	h3 { 
+		position: absolute;
+		top: 200px; left: 200px;
+		width: 300px; height: 200px;
+		background: red;
+		z-index: 3;
+	}
+	img { width: 100px; height: 100px;}
+	
+</style>
+</head>
+<body>
+<img src=cat.jpg>
+<div id=layer1>
+	<img src=cat.jpg>
+	absolute vs relative
+</div>
+<div id=layer1>2</div>
+<div id=layer2>3</div>
+</body>
+<html>
